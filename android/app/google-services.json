@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "326910002013",
+    "firebase_url": "https://hungs20.firebaseio.com",
+    "project_id": "hungs20",
+    "storage_bucket": "hungs20.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:326910002013:android:249534f0b535575c139eb4",
+        "android_client_info": {
+          "package_name": "com.tro"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "326910002013-l4l7sdr0o214s1s10aeuhim63u3sp19s.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBi5tlLWvTS0DtZSo0PhovURE5sOol6coY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "326910002013-l4l7sdr0o214s1s10aeuhim63u3sp19s.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
