@@ -1,0 +1,376 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.tro"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+9        android:targetSdkVersion="29" />
+10
+11    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+11-->/Users/hungcv8/Documents/Hung/Timtro-ReactNative/android/app/src/debug/AndroidManifest.xml:5:5-77
+11-->/Users/hungcv8/Documents/Hung/Timtro-ReactNative/android/app/src/debug/AndroidManifest.xml:5:22-75
+12    <uses-permission android:name="android.permission.INTERNET" />
+12-->/Users/hungcv8/Documents/Hung/Timtro-ReactNative/android/app/src/main/AndroidManifest.xml:4:5-67
+12-->/Users/hungcv8/Documents/Hung/Timtro-ReactNative/android/app/src/main/AndroidManifest.xml:4:22-64
+13    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+13-->/Users/hungcv8/Documents/Hung/Timtro-ReactNative/android/app/src/main/AndroidManifest.xml:5:5-79
+13-->/Users/hungcv8/Documents/Hung/Timtro-ReactNative/android/app/src/main/AndroidManifest.xml:5:22-77
+14    <uses-permission android:name="android.permission.CAMERA" />
+14-->/Users/hungcv8/Documents/Hung/Timtro-ReactNative/android/app/src/main/AndroidManifest.xml:6:5-65
+14-->/Users/hungcv8/Documents/Hung/Timtro-ReactNative/android/app/src/main/AndroidManifest.xml:6:22-62
+15    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+15-->/Users/hungcv8/Documents/Hung/Timtro-ReactNative/android/app/src/main/AndroidManifest.xml:7:5-80
+15-->/Users/hungcv8/Documents/Hung/Timtro-ReactNative/android/app/src/main/AndroidManifest.xml:7:22-78
+16    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+16-->[com.facebook.flipper:flipper:0.54.0] /Users/hungcv8/.gradle/caches/transforms-2/files-2.1/807e27f1042d0dd05a3d9faeaaa963dd/jetified-flipper-0.54.0/AndroidManifest.xml:16:5-76
+16-->[com.facebook.flipper:flipper:0.54.0] /Users/hungcv8/.gradle/caches/transforms-2/files-2.1/807e27f1042d0dd05a3d9faeaaa963dd/jetified-flipper-0.54.0/AndroidManifest.xml:16:22-73
+17    <uses-permission android:name="android.permission.WAKE_LOCK" />
+17-->[:react-native-firebase_auth] /Users/hungcv8/Documents/Hung/Timtro-ReactNative/node_modules/@react-native-firebase/auth/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:12:5-68
+17-->[:react-native-firebase_auth] /Users/hungcv8/Documents/Hung/Timtro-ReactNative/node_modules/@react-native-firebase/auth/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:12:22-65
+18    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+18-->[:react-native-firebase_auth] /Users/hungcv8/Documents/Hung/Timtro-ReactNative/node_modules/@react-native-firebase/auth/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:13:5-79
+18-->[:react-native-firebase_auth] /Users/hungcv8/Documents/Hung/Timtro-ReactNative/node_modules/@react-native-firebase/auth/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:13:22-76
+19
+20    <queries>
+20-->[:react-native-image-crop-picker] /Users/hungcv8/Documents/Hung/Timtro-ReactNative/node_modules/react-native-image-crop-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:10:5-14:15
+21        <intent>
+21-->[:react-native-image-crop-picker] /Users/hungcv8/Documents/Hung/Timtro-ReactNative/node_modules/react-native-image-crop-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:11:9-13:18
+22            <action android:name="android.media.action.IMAGE_CAPTURE" />
+22-->[:react-native-image-crop-picker] /Users/hungcv8/Documents/Hung/Timtro-ReactNative/node_modules/react-native-image-crop-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:12:13-73
+22-->[:react-native-image-crop-picker] /Users/hungcv8/Documents/Hung/Timtro-ReactNative/node_modules/react-native-image-crop-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:12:21-70
+23        </intent>
+24    </queries>
+25
+26    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" />
+26-->[com.google.android.gms:play-services-measurement:18.0.0] /Users/hungcv8/.gradle/caches/transforms-2/files-2.1/d22294b7e268c3424b3c8480b1093680/jetified-play-services-measurement-18.0.0/AndroidManifest.xml:26:5-110
+26-->[com.google.android.gms:play-services-measurement:18.0.0] /Users/hungcv8/.gradle/caches/transforms-2/files-2.1/d22294b7e268c3424b3c8480b1093680/jetified-play-services-measurement-18.0.0/AndroidManifest.xml:26:22-107
+27
+28    <application
+28-->/Users/hungcv8/Documents/Hung/Timtro-ReactNative/android/app/src/main/AndroidManifest.xml:9:5-29:19
+29        android:name="com.tro.MainApplication"
+29-->/Users/hungcv8/Documents/Hung/Timtro-ReactNative/android/app/src/main/AndroidManifest.xml:10:7-38
+30        android:allowBackup="false"
+30-->/Users/hungcv8/Documents/Hung/Timtro-ReactNative/android/app/src/main/AndroidManifest.xml:14:7-34
+31        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+31-->[androidx.core:core:1.1.0] /Users/hungcv8/.gradle/caches/transforms-2/files-2.1/0f512e181ca87b528277c07a0d4a1870/core-1.1.0/AndroidManifest.xml:24:18-86
+32        android:debuggable="true"
+33        android:icon="@mipmap/ic_launcher"
+33-->/Users/hungcv8/Documents/Hung/Timtro-ReactNative/android/app/src/main/AndroidManifest.xml:12:7-41
+34        android:label="@string/app_name"
+34-->/Users/hungcv8/Documents/Hung/Timtro-ReactNative/android/app/src/main/AndroidManifest.xml:11:7-39
+35        android:requestLegacyExternalStorage="true"
+35-->/Users/hungcv8/Documents/Hung/Timtro-ReactNative/android/app/src/main/AndroidManifest.xml:15:7-50
+36        android:roundIcon="@mipmap/ic_launcher_round"
+36-->/Users/hungcv8/Documents/Hung/Timtro-ReactNative/android/app/src/main/AndroidManifest.xml:13:7-52
+37        android:theme="@style/AppTheme"
+37-->/Users/hungcv8/Documents/Hung/Timtro-ReactNative/android/app/src/main/AndroidManifest.xml:16:7-38
+38        android:usesCleartextTraffic="true" >
+38-->/Users/hungcv8/Documents/Hung/Timtro-ReactNative/android/app/src/debug/AndroidManifest.xml:7:18-53
+39        <activity
+39-->/Users/hungcv8/Documents/Hung/Timtro-ReactNative/android/app/src/main/AndroidManifest.xml:17:7-27:18
+40            android:name="com.tro.MainActivity"
+40-->/Users/hungcv8/Documents/Hung/Timtro-ReactNative/android/app/src/main/AndroidManifest.xml:18:9-37
+41            android:configChanges="keyboard|keyboardHidden|orientation|screenSize|uiMode"
+41-->/Users/hungcv8/Documents/Hung/Timtro-ReactNative/android/app/src/main/AndroidManifest.xml:20:9-86
+42            android:label="@string/app_name"
+42-->/Users/hungcv8/Documents/Hung/Timtro-ReactNative/android/app/src/main/AndroidManifest.xml:19:9-41
+43            android:launchMode="singleTask"
+43-->/Users/hungcv8/Documents/Hung/Timtro-ReactNative/android/app/src/main/AndroidManifest.xml:21:9-40
+44            android:windowSoftInputMode="adjustResize" >
+44-->/Users/hungcv8/Documents/Hung/Timtro-ReactNative/android/app/src/main/AndroidManifest.xml:22:9-51
+45            <intent-filter>
+45-->/Users/hungcv8/Documents/Hung/Timtro-ReactNative/android/app/src/main/AndroidManifest.xml:23:9-26:25
+46                <action android:name="android.intent.action.MAIN" />
+46-->/Users/hungcv8/Documents/Hung/Timtro-ReactNative/android/app/src/main/AndroidManifest.xml:24:13-65
+46-->/Users/hungcv8/Documents/Hung/Timtro-ReactNative/android/app/src/main/AndroidManifest.xml:24:21-62
+47
+48                <category android:name="android.intent.category.LAUNCHER" />
+48-->/Users/hungcv8/Documents/Hung/Timtro-ReactNative/android/app/src/main/AndroidManifest.xml:25:13-73
+48-->/Users/hungcv8/Documents/Hung/Timtro-ReactNative/android/app/src/main/AndroidManifest.xml:25:23-70
+49            </intent-filter>
+50        </activity>
+51        <activity android:name="com.facebook.react.devsupport.DevSettingsActivity" />
+51-->/Users/hungcv8/Documents/Hung/Timtro-ReactNative/android/app/src/main/AndroidManifest.xml:28:7-84
+51-->/Users/hungcv8/Documents/Hung/Timtro-ReactNative/android/app/src/main/AndroidManifest.xml:28:17-81
+52
+53        <provider
+53-->[:react-native-image-crop-picker] /Users/hungcv8/Documents/Hung/Timtro-ReactNative/node_modules/react-native-image-crop-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:19:9-27:20
+54            android:name="androidx.core.content.FileProvider"
+54-->[:react-native-image-crop-picker] /Users/hungcv8/Documents/Hung/Timtro-ReactNative/node_modules/react-native-image-crop-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:20:13-62
+55            android:authorities="com.tro.provider"
+55-->[:react-native-image-crop-picker] /Users/hungcv8/Documents/Hung/Timtro-ReactNative/node_modules/react-native-image-crop-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:21:13-60
+56            android:exported="false"
+56-->[:react-native-image-crop-picker] /Users/hungcv8/Documents/Hung/Timtro-ReactNative/node_modules/react-native-image-crop-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:22:13-37
+57            android:grantUriPermissions="true" >
+57-->[:react-native-image-crop-picker] /Users/hungcv8/Documents/Hung/Timtro-ReactNative/node_modules/react-native-image-crop-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:23:13-47
+58            <meta-data
+58-->[:react-native-image-crop-picker] /Users/hungcv8/Documents/Hung/Timtro-ReactNative/node_modules/react-native-image-crop-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:24:13-26:58
+59                android:name="android.support.FILE_PROVIDER_PATHS"
+59-->[:react-native-image-crop-picker] /Users/hungcv8/Documents/Hung/Timtro-ReactNative/node_modules/react-native-image-crop-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:25:17-67
+60                android:resource="@xml/provider_paths" />
+60-->[:react-native-image-crop-picker] /Users/hungcv8/Documents/Hung/Timtro-ReactNative/node_modules/react-native-image-crop-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:26:17-55
+61        </provider>
+62
+63        <activity
+63-->[:react-native-image-crop-picker] /Users/hungcv8/Documents/Hung/Timtro-ReactNative/node_modules/react-native-image-crop-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:29:9-31:72
+64            android:name="com.yalantis.ucrop.UCropActivity"
+64-->[:react-native-image-crop-picker] /Users/hungcv8/Documents/Hung/Timtro-ReactNative/node_modules/react-native-image-crop-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:30:13-60
+65            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+65-->[:react-native-image-crop-picker] /Users/hungcv8/Documents/Hung/Timtro-ReactNative/node_modules/react-native-image-crop-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:31:13-69
+66
+67        <provider
+67-->[:react-native-image-picker] /Users/hungcv8/Documents/Hung/Timtro-ReactNative/node_modules/react-native-image-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:10:9-18:20
+68            android:name="com.imagepicker.FileProvider"
+68-->[:react-native-image-picker] /Users/hungcv8/Documents/Hung/Timtro-ReactNative/node_modules/react-native-image-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:11:13-56
+69            android:authorities="com.tro.provider"
+69-->[:react-native-image-picker] /Users/hungcv8/Documents/Hung/Timtro-ReactNative/node_modules/react-native-image-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:12:13-60
+70            android:exported="false"
+70-->[:react-native-image-picker] /Users/hungcv8/Documents/Hung/Timtro-ReactNative/node_modules/react-native-image-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:13:13-37
+71            android:grantUriPermissions="true" >
+71-->[:react-native-image-picker] /Users/hungcv8/Documents/Hung/Timtro-ReactNative/node_modules/react-native-image-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:14:13-47
+72            <meta-data
+72-->[:react-native-image-crop-picker] /Users/hungcv8/Documents/Hung/Timtro-ReactNative/node_modules/react-native-image-crop-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:24:13-26:58
+73                android:name="android.support.FILE_PROVIDER_PATHS"
+73-->[:react-native-image-crop-picker] /Users/hungcv8/Documents/Hung/Timtro-ReactNative/node_modules/react-native-image-crop-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:25:17-67
+74                android:resource="@xml/provider_paths" />
+74-->[:react-native-image-crop-picker] /Users/hungcv8/Documents/Hung/Timtro-ReactNative/node_modules/react-native-image-crop-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:26:17-55
+75        </provider>
+76
+77        <service
+77-->[com.google.firebase:firebase-firestore:22.0.0] /Users/hungcv8/.gradle/caches/transforms-2/files-2.1/94dd01fbc60b581102d8bd507b16271c/jetified-firebase-firestore-22.0.0/AndroidManifest.xml:17:9-23:19
+78            android:name="com.google.firebase.components.ComponentDiscoveryService"
+78-->[com.google.firebase:firebase-firestore:22.0.0] /Users/hungcv8/.gradle/caches/transforms-2/files-2.1/94dd01fbc60b581102d8bd507b16271c/jetified-firebase-firestore-22.0.0/AndroidManifest.xml:18:13-84
+79            android:directBootAware="true"
+79-->[com.google.firebase:firebase-common:19.3.1] /Users/hungcv8/.gradle/caches/transforms-2/files-2.1/5388d4664efac90cc4cb775def4a245e/jetified-firebase-common-19.3.1/AndroidManifest.xml:35:13-43
+80            android:exported="false" >
+80-->[com.google.firebase:firebase-firestore:22.0.0] /Users/hungcv8/.gradle/caches/transforms-2/files-2.1/94dd01fbc60b581102d8bd507b16271c/jetified-firebase-firestore-22.0.0/AndroidManifest.xml:19:13-37
+81            <meta-data
+81-->[com.google.firebase:firebase-firestore:22.0.0] /Users/hungcv8/.gradle/caches/transforms-2/files-2.1/94dd01fbc60b581102d8bd507b16271c/jetified-firebase-firestore-22.0.0/AndroidManifest.xml:20:13-22:85
+82                android:name="com.google.firebase.components:com.google.firebase.firestore.FirestoreRegistrar"
+82-->[com.google.firebase:firebase-firestore:22.0.0] /Users/hungcv8/.gradle/caches/transforms-2/files-2.1/94dd01fbc60b581102d8bd507b16271c/jetified-firebase-firestore-22.0.0/AndroidManifest.xml:21:17-111
+83                android:value="com.google.firebase.components.ComponentRegistrar" />
+83-->[com.google.firebase:firebase-firestore:22.0.0] /Users/hungcv8/.gradle/caches/transforms-2/files-2.1/94dd01fbc60b581102d8bd507b16271c/jetified-firebase-firestore-22.0.0/AndroidManifest.xml:22:17-82
+84            <meta-data
+84-->[com.google.firebase:firebase-auth:20.0.0] /Users/hungcv8/.gradle/caches/transforms-2/files-2.1/c5b0a0b322882e497c37f349a96d5300/jetified-firebase-auth-20.0.0/AndroidManifest.xml:85:13-87:85
+85                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
+85-->[com.google.firebase:firebase-auth:20.0.0] /Users/hungcv8/.gradle/caches/transforms-2/files-2.1/c5b0a0b322882e497c37f349a96d5300/jetified-firebase-auth-20.0.0/AndroidManifest.xml:86:17-109
+86                android:value="com.google.firebase.components.ComponentRegistrar" />
+86-->[com.google.firebase:firebase-auth:20.0.0] /Users/hungcv8/.gradle/caches/transforms-2/files-2.1/c5b0a0b322882e497c37f349a96d5300/jetified-firebase-auth-20.0.0/AndroidManifest.xml:87:17-82
+87            <meta-data
+87-->[com.google.firebase:firebase-storage:19.2.0] /Users/hungcv8/.gradle/caches/transforms-2/files-2.1/43a08cab711d064f72735cbf684e217f/jetified-firebase-storage-19.2.0/AndroidManifest.xml:33:13-35:85
+88                android:name="com.google.firebase.components:com.google.firebase.storage.StorageRegistrar"
+88-->[com.google.firebase:firebase-storage:19.2.0] /Users/hungcv8/.gradle/caches/transforms-2/files-2.1/43a08cab711d064f72735cbf684e217f/jetified-firebase-storage-19.2.0/AndroidManifest.xml:34:17-107
+89                android:value="com.google.firebase.components.ComponentRegistrar" />
+89-->[com.google.firebase:firebase-storage:19.2.0] /Users/hungcv8/.gradle/caches/transforms-2/files-2.1/43a08cab711d064f72735cbf684e217f/jetified-firebase-storage-19.2.0/AndroidManifest.xml:35:17-82
+90            <meta-data
+90-->[com.google.firebase:firebase-database:19.5.1] /Users/hungcv8/.gradle/caches/transforms-2/files-2.1/395fec661c255fae2c520684c25422d9/jetified-firebase-database-19.5.1/AndroidManifest.xml:32:13-34:85
+91                android:name="com.google.firebase.components:com.google.firebase.database.DatabaseRegistrar"
+91-->[com.google.firebase:firebase-database:19.5.1] /Users/hungcv8/.gradle/caches/transforms-2/files-2.1/395fec661c255fae2c520684c25422d9/jetified-firebase-database-19.5.1/AndroidManifest.xml:33:17-109
+92                android:value="com.google.firebase.components.ComponentRegistrar" />
+92-->[com.google.firebase:firebase-database:19.5.1] /Users/hungcv8/.gradle/caches/transforms-2/files-2.1/395fec661c255fae2c520684c25422d9/jetified-firebase-database-19.5.1/AndroidManifest.xml:34:17-82
+93            <meta-data
+93-->[com.google.android.gms:play-services-measurement-api:18.0.0] /Users/hungcv8/.gradle/caches/transforms-2/files-2.1/fa0cc2d1ad15f1208b1b79dc640b341c/jetified-play-services-measurement-api-18.0.0/AndroidManifest.xml:30:13-32:85
+94                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
+94-->[com.google.android.gms:play-services-measurement-api:18.0.0] /Users/hungcv8/.gradle/caches/transforms-2/files-2.1/fa0cc2d1ad15f1208b1b79dc640b341c/jetified-play-services-measurement-api-18.0.0/AndroidManifest.xml:31:17-139
+95                android:value="com.google.firebase.components.ComponentRegistrar" />
+95-->[com.google.android.gms:play-services-measurement-api:18.0.0] /Users/hungcv8/.gradle/caches/transforms-2/files-2.1/fa0cc2d1ad15f1208b1b79dc640b341c/jetified-play-services-measurement-api-18.0.0/AndroidManifest.xml:32:17-82
+96            <meta-data
+96-->[com.google.firebase:firebase-installations:16.3.3] /Users/hungcv8/.gradle/caches/transforms-2/files-2.1/70f6506ea38ff4a99b656f7a73749005/jetified-firebase-installations-16.3.3/AndroidManifest.xml:17:13-19:85
+97                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar"
+97-->[com.google.firebase:firebase-installations:16.3.3] /Users/hungcv8/.gradle/caches/transforms-2/files-2.1/70f6506ea38ff4a99b656f7a73749005/jetified-firebase-installations-16.3.3/AndroidManifest.xml:18:17-127
+98                android:value="com.google.firebase.components.ComponentRegistrar" />
+98-->[com.google.firebase:firebase-installations:16.3.3] /Users/hungcv8/.gradle/caches/transforms-2/files-2.1/70f6506ea38ff4a99b656f7a73749005/jetified-firebase-installations-16.3.3/AndroidManifest.xml:19:17-82
+99        </service>
+100
+101        <activity
+101-->[com.google.android.gms:play-services-auth:18.1.0] /Users/hungcv8/.gradle/caches/transforms-2/files-2.1/ab7ddd1c2ae16103372186daa89cea7d/jetified-play-services-auth-18.1.0/AndroidManifest.xml:23:9-27:75
+102            android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity"
+102-->[com.google.android.gms:play-services-auth:18.1.0] /Users/hungcv8/.gradle/caches/transforms-2/files-2.1/ab7ddd1c2ae16103372186daa89cea7d/jetified-play-services-auth-18.1.0/AndroidManifest.xml:24:13-93
+103            android:excludeFromRecents="true"
+103-->[com.google.android.gms:play-services-auth:18.1.0] /Users/hungcv8/.gradle/caches/transforms-2/files-2.1/ab7ddd1c2ae16103372186daa89cea7d/jetified-play-services-auth-18.1.0/AndroidManifest.xml:25:13-46
+104            android:exported="false"
+104-->[com.google.android.gms:play-services-auth:18.1.0] /Users/hungcv8/.gradle/caches/transforms-2/files-2.1/ab7ddd1c2ae16103372186daa89cea7d/jetified-play-services-auth-18.1.0/AndroidManifest.xml:26:13-37
+105            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+105-->[com.google.android.gms:play-services-auth:18.1.0] /Users/hungcv8/.gradle/caches/transforms-2/files-2.1/ab7ddd1c2ae16103372186daa89cea7d/jetified-play-services-auth-18.1.0/AndroidManifest.xml:27:13-72
+106        <!--
+107            Service handling Google Sign-In user revocation. For apps that do not integrate with
+108            Google Sign-In, this service will never be started.
+109        -->
+110        <service
+110-->[com.google.android.gms:play-services-auth:18.1.0] /Users/hungcv8/.gradle/caches/transforms-2/files-2.1/ab7ddd1c2ae16103372186daa89cea7d/jetified-play-services-auth-18.1.0/AndroidManifest.xml:33:9-37:51
+111            android:name="com.google.android.gms.auth.api.signin.RevocationBoundService"
+111-->[com.google.android.gms:play-services-auth:18.1.0] /Users/hungcv8/.gradle/caches/transforms-2/files-2.1/ab7ddd1c2ae16103372186daa89cea7d/jetified-play-services-auth-18.1.0/AndroidManifest.xml:34:13-89
+112            android:exported="true"
+112-->[com.google.android.gms:play-services-auth:18.1.0] /Users/hungcv8/.gradle/caches/transforms-2/files-2.1/ab7ddd1c2ae16103372186daa89cea7d/jetified-play-services-auth-18.1.0/AndroidManifest.xml:35:13-36
+113            android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION"
+113-->[com.google.android.gms:play-services-auth:18.1.0] /Users/hungcv8/.gradle/caches/transforms-2/files-2.1/ab7ddd1c2ae16103372186daa89cea7d/jetified-play-services-auth-18.1.0/AndroidManifest.xml:36:13-107
+114            android:visibleToInstantApps="true" />
+114-->[com.google.android.gms:play-services-auth:18.1.0] /Users/hungcv8/.gradle/caches/transforms-2/files-2.1/ab7ddd1c2ae16103372186daa89cea7d/jetified-play-services-auth-18.1.0/AndroidManifest.xml:37:13-48
+115
+116        <activity
+116-->[com.google.firebase:firebase-auth:20.0.0] /Users/hungcv8/.gradle/caches/transforms-2/files-2.1/c5b0a0b322882e497c37f349a96d5300/jetified-firebase-auth-20.0.0/AndroidManifest.xml:27:9-34:50
+117            android:name="com.google.firebase.auth.internal.FederatedSignInActivity"
+117-->[com.google.firebase:firebase-auth:20.0.0] /Users/hungcv8/.gradle/caches/transforms-2/files-2.1/c5b0a0b322882e497c37f349a96d5300/jetified-firebase-auth-20.0.0/AndroidManifest.xml:28:13-85
+118            android:excludeFromRecents="true"
+118-->[com.google.firebase:firebase-auth:20.0.0] /Users/hungcv8/.gradle/caches/transforms-2/files-2.1/c5b0a0b322882e497c37f349a96d5300/jetified-firebase-auth-20.0.0/AndroidManifest.xml:29:13-46
+119            android:exported="true"
+119-->[com.google.firebase:firebase-auth:20.0.0] /Users/hungcv8/.gradle/caches/transforms-2/files-2.1/c5b0a0b322882e497c37f349a96d5300/jetified-firebase-auth-20.0.0/AndroidManifest.xml:30:13-36
+120            android:launchMode="singleTask"
+120-->[com.google.firebase:firebase-auth:20.0.0] /Users/hungcv8/.gradle/caches/transforms-2/files-2.1/c5b0a0b322882e497c37f349a96d5300/jetified-firebase-auth-20.0.0/AndroidManifest.xml:31:13-44
+121            android:permission="com.google.firebase.auth.api.gms.permission.LAUNCH_FEDERATED_SIGN_IN"
+121-->[com.google.firebase:firebase-auth:20.0.0] /Users/hungcv8/.gradle/caches/transforms-2/files-2.1/c5b0a0b322882e497c37f349a96d5300/jetified-firebase-auth-20.0.0/AndroidManifest.xml:32:13-102
+122            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+122-->[com.google.firebase:firebase-auth:20.0.0] /Users/hungcv8/.gradle/caches/transforms-2/files-2.1/c5b0a0b322882e497c37f349a96d5300/jetified-firebase-auth-20.0.0/AndroidManifest.xml:33:13-72
+123        <activity
+123-->[com.google.firebase:firebase-auth:20.0.0] /Users/hungcv8/.gradle/caches/transforms-2/files-2.1/c5b0a0b322882e497c37f349a96d5300/jetified-firebase-auth-20.0.0/AndroidManifest.xml:35:9-52:20
+124            android:name="com.google.firebase.auth.internal.GenericIdpActivity"
+124-->[com.google.firebase:firebase-auth:20.0.0] /Users/hungcv8/.gradle/caches/transforms-2/files-2.1/c5b0a0b322882e497c37f349a96d5300/jetified-firebase-auth-20.0.0/AndroidManifest.xml:36:13-80
+125            android:excludeFromRecents="true"
+125-->[com.google.firebase:firebase-auth:20.0.0] /Users/hungcv8/.gradle/caches/transforms-2/files-2.1/c5b0a0b322882e497c37f349a96d5300/jetified-firebase-auth-20.0.0/AndroidManifest.xml:37:13-46
+126            android:exported="true"
+126-->[com.google.firebase:firebase-auth:20.0.0] /Users/hungcv8/.gradle/caches/transforms-2/files-2.1/c5b0a0b322882e497c37f349a96d5300/jetified-firebase-auth-20.0.0/AndroidManifest.xml:38:13-36
+127            android:launchMode="singleTask"
+127-->[com.google.firebase:firebase-auth:20.0.0] /Users/hungcv8/.gradle/caches/transforms-2/files-2.1/c5b0a0b322882e497c37f349a96d5300/jetified-firebase-auth-20.0.0/AndroidManifest.xml:39:13-44
+128            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+128-->[com.google.firebase:firebase-auth:20.0.0] /Users/hungcv8/.gradle/caches/transforms-2/files-2.1/c5b0a0b322882e497c37f349a96d5300/jetified-firebase-auth-20.0.0/AndroidManifest.xml:40:13-72
+129            <intent-filter>
+129-->[com.google.firebase:firebase-auth:20.0.0] /Users/hungcv8/.gradle/caches/transforms-2/files-2.1/c5b0a0b322882e497c37f349a96d5300/jetified-firebase-auth-20.0.0/AndroidManifest.xml:41:13-51:29
+130                <action android:name="android.intent.action.VIEW" />
+130-->[com.google.firebase:firebase-auth:20.0.0] /Users/hungcv8/.gradle/caches/transforms-2/files-2.1/c5b0a0b322882e497c37f349a96d5300/jetified-firebase-auth-20.0.0/AndroidManifest.xml:42:17-69
+130-->[com.google.firebase:firebase-auth:20.0.0] /Users/hungcv8/.gradle/caches/transforms-2/files-2.1/c5b0a0b322882e497c37f349a96d5300/jetified-firebase-auth-20.0.0/AndroidManifest.xml:42:25-66
+131
+132                <category android:name="android.intent.category.DEFAULT" />
+132-->[com.google.firebase:firebase-auth:20.0.0] /Users/hungcv8/.gradle/caches/transforms-2/files-2.1/c5b0a0b322882e497c37f349a96d5300/jetified-firebase-auth-20.0.0/AndroidManifest.xml:44:17-76
+132-->[com.google.firebase:firebase-auth:20.0.0] /Users/hungcv8/.gradle/caches/transforms-2/files-2.1/c5b0a0b322882e497c37f349a96d5300/jetified-firebase-auth-20.0.0/AndroidManifest.xml:44:27-73
+133                <category android:name="android.intent.category.BROWSABLE" />
+133-->[com.google.firebase:firebase-auth:20.0.0] /Users/hungcv8/.gradle/caches/transforms-2/files-2.1/c5b0a0b322882e497c37f349a96d5300/jetified-firebase-auth-20.0.0/AndroidManifest.xml:45:17-78
+133-->[com.google.firebase:firebase-auth:20.0.0] /Users/hungcv8/.gradle/caches/transforms-2/files-2.1/c5b0a0b322882e497c37f349a96d5300/jetified-firebase-auth-20.0.0/AndroidManifest.xml:45:27-75
+134
+135                <data
+135-->[com.google.firebase:firebase-auth:20.0.0] /Users/hungcv8/.gradle/caches/transforms-2/files-2.1/c5b0a0b322882e497c37f349a96d5300/jetified-firebase-auth-20.0.0/AndroidManifest.xml:47:17-50:51
+136                    android:host="firebase.auth"
+136-->[com.google.firebase:firebase-auth:20.0.0] /Users/hungcv8/.gradle/caches/transforms-2/files-2.1/c5b0a0b322882e497c37f349a96d5300/jetified-firebase-auth-20.0.0/AndroidManifest.xml:48:21-49
+137                    android:path="/"
+137-->[com.google.firebase:firebase-auth:20.0.0] /Users/hungcv8/.gradle/caches/transforms-2/files-2.1/c5b0a0b322882e497c37f349a96d5300/jetified-firebase-auth-20.0.0/AndroidManifest.xml:49:21-37
+138                    android:scheme="genericidp" />
+138-->[com.google.firebase:firebase-auth:20.0.0] /Users/hungcv8/.gradle/caches/transforms-2/files-2.1/c5b0a0b322882e497c37f349a96d5300/jetified-firebase-auth-20.0.0/AndroidManifest.xml:50:21-48
+139            </intent-filter>
+140        </activity>
+141        <activity
+141-->[com.google.firebase:firebase-auth:20.0.0] /Users/hungcv8/.gradle/caches/transforms-2/files-2.1/c5b0a0b322882e497c37f349a96d5300/jetified-firebase-auth-20.0.0/AndroidManifest.xml:53:9-70:20
+142            android:name="com.google.firebase.auth.internal.RecaptchaActivity"
+142-->[com.google.firebase:firebase-auth:20.0.0] /Users/hungcv8/.gradle/caches/transforms-2/files-2.1/c5b0a0b322882e497c37f349a96d5300/jetified-firebase-auth-20.0.0/AndroidManifest.xml:54:13-79
+143            android:excludeFromRecents="true"
+143-->[com.google.firebase:firebase-auth:20.0.0] /Users/hungcv8/.gradle/caches/transforms-2/files-2.1/c5b0a0b322882e497c37f349a96d5300/jetified-firebase-auth-20.0.0/AndroidManifest.xml:55:13-46
+144            android:exported="true"
+144-->[com.google.firebase:firebase-auth:20.0.0] /Users/hungcv8/.gradle/caches/transforms-2/files-2.1/c5b0a0b322882e497c37f349a96d5300/jetified-firebase-auth-20.0.0/AndroidManifest.xml:56:13-36
+145            android:launchMode="singleTask"
+145-->[com.google.firebase:firebase-auth:20.0.0] /Users/hungcv8/.gradle/caches/transforms-2/files-2.1/c5b0a0b322882e497c37f349a96d5300/jetified-firebase-auth-20.0.0/AndroidManifest.xml:57:13-44
+146            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+146-->[com.google.firebase:firebase-auth:20.0.0] /Users/hungcv8/.gradle/caches/transforms-2/files-2.1/c5b0a0b322882e497c37f349a96d5300/jetified-firebase-auth-20.0.0/AndroidManifest.xml:58:13-72
+147            <intent-filter>
+147-->[com.google.firebase:firebase-auth:20.0.0] /Users/hungcv8/.gradle/caches/transforms-2/files-2.1/c5b0a0b322882e497c37f349a96d5300/jetified-firebase-auth-20.0.0/AndroidManifest.xml:59:13-69:29
+148                <action android:name="android.intent.action.VIEW" />
+148-->[com.google.firebase:firebase-auth:20.0.0] /Users/hungcv8/.gradle/caches/transforms-2/files-2.1/c5b0a0b322882e497c37f349a96d5300/jetified-firebase-auth-20.0.0/AndroidManifest.xml:42:17-69
+148-->[com.google.firebase:firebase-auth:20.0.0] /Users/hungcv8/.gradle/caches/transforms-2/files-2.1/c5b0a0b322882e497c37f349a96d5300/jetified-firebase-auth-20.0.0/AndroidManifest.xml:42:25-66
+149
+150                <category android:name="android.intent.category.DEFAULT" />
+150-->[com.google.firebase:firebase-auth:20.0.0] /Users/hungcv8/.gradle/caches/transforms-2/files-2.1/c5b0a0b322882e497c37f349a96d5300/jetified-firebase-auth-20.0.0/AndroidManifest.xml:44:17-76
+150-->[com.google.firebase:firebase-auth:20.0.0] /Users/hungcv8/.gradle/caches/transforms-2/files-2.1/c5b0a0b322882e497c37f349a96d5300/jetified-firebase-auth-20.0.0/AndroidManifest.xml:44:27-73
+151                <category android:name="android.intent.category.BROWSABLE" />
+151-->[com.google.firebase:firebase-auth:20.0.0] /Users/hungcv8/.gradle/caches/transforms-2/files-2.1/c5b0a0b322882e497c37f349a96d5300/jetified-firebase-auth-20.0.0/AndroidManifest.xml:45:17-78
+151-->[com.google.firebase:firebase-auth:20.0.0] /Users/hungcv8/.gradle/caches/transforms-2/files-2.1/c5b0a0b322882e497c37f349a96d5300/jetified-firebase-auth-20.0.0/AndroidManifest.xml:45:27-75
+152
+153                <data
+153-->[com.google.firebase:firebase-auth:20.0.0] /Users/hungcv8/.gradle/caches/transforms-2/files-2.1/c5b0a0b322882e497c37f349a96d5300/jetified-firebase-auth-20.0.0/AndroidManifest.xml:47:17-50:51
+154                    android:host="firebase.auth"
+154-->[com.google.firebase:firebase-auth:20.0.0] /Users/hungcv8/.gradle/caches/transforms-2/files-2.1/c5b0a0b322882e497c37f349a96d5300/jetified-firebase-auth-20.0.0/AndroidManifest.xml:48:21-49
+155                    android:path="/"
+155-->[com.google.firebase:firebase-auth:20.0.0] /Users/hungcv8/.gradle/caches/transforms-2/files-2.1/c5b0a0b322882e497c37f349a96d5300/jetified-firebase-auth-20.0.0/AndroidManifest.xml:49:21-37
+156                    android:scheme="recaptcha" />
+156-->[com.google.firebase:firebase-auth:20.0.0] /Users/hungcv8/.gradle/caches/transforms-2/files-2.1/c5b0a0b322882e497c37f349a96d5300/jetified-firebase-auth-20.0.0/AndroidManifest.xml:50:21-48
+157            </intent-filter>
+158        </activity>
+159
+160        <service
+160-->[com.google.firebase:firebase-auth:20.0.0] /Users/hungcv8/.gradle/caches/transforms-2/files-2.1/c5b0a0b322882e497c37f349a96d5300/jetified-firebase-auth-20.0.0/AndroidManifest.xml:72:9-81:19
+161            android:name="com.google.firebase.auth.api.fallback.service.FirebaseAuthFallbackService"
+161-->[com.google.firebase:firebase-auth:20.0.0] /Users/hungcv8/.gradle/caches/transforms-2/files-2.1/c5b0a0b322882e497c37f349a96d5300/jetified-firebase-auth-20.0.0/AndroidManifest.xml:73:13-101
+162            android:enabled="true"
+162-->[com.google.firebase:firebase-auth:20.0.0] /Users/hungcv8/.gradle/caches/transforms-2/files-2.1/c5b0a0b322882e497c37f349a96d5300/jetified-firebase-auth-20.0.0/AndroidManifest.xml:74:13-35
+163            android:exported="false" >
+163-->[com.google.firebase:firebase-auth:20.0.0] /Users/hungcv8/.gradle/caches/transforms-2/files-2.1/c5b0a0b322882e497c37f349a96d5300/jetified-firebase-auth-20.0.0/AndroidManifest.xml:75:13-37
+164            <intent-filter>
+164-->[com.google.firebase:firebase-auth:20.0.0] /Users/hungcv8/.gradle/caches/transforms-2/files-2.1/c5b0a0b322882e497c37f349a96d5300/jetified-firebase-auth-20.0.0/AndroidManifest.xml:76:13-80:29
+165                <action android:name="com.google.firebase.auth.api.gms.service.START" />
+165-->[com.google.firebase:firebase-auth:20.0.0] /Users/hungcv8/.gradle/caches/transforms-2/files-2.1/c5b0a0b322882e497c37f349a96d5300/jetified-firebase-auth-20.0.0/AndroidManifest.xml:77:17-89
+165-->[com.google.firebase:firebase-auth:20.0.0] /Users/hungcv8/.gradle/caches/transforms-2/files-2.1/c5b0a0b322882e497c37f349a96d5300/jetified-firebase-auth-20.0.0/AndroidManifest.xml:77:25-86
+166
+167                <category android:name="android.intent.category.DEFAULT" />
+167-->[com.google.firebase:firebase-auth:20.0.0] /Users/hungcv8/.gradle/caches/transforms-2/files-2.1/c5b0a0b322882e497c37f349a96d5300/jetified-firebase-auth-20.0.0/AndroidManifest.xml:44:17-76
+167-->[com.google.firebase:firebase-auth:20.0.0] /Users/hungcv8/.gradle/caches/transforms-2/files-2.1/c5b0a0b322882e497c37f349a96d5300/jetified-firebase-auth-20.0.0/AndroidManifest.xml:44:27-73
+168            </intent-filter>
+169        </service>
+170
+171        <activity
+171-->[com.google.android.gms:play-services-base:17.1.0] /Users/hungcv8/.gradle/caches/transforms-2/files-2.1/e45c3bcec9556f6c305c7348090de509/jetified-play-services-base-17.1.0/AndroidManifest.xml:23:9-26:75
+172            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+172-->[com.google.android.gms:play-services-base:17.1.0] /Users/hungcv8/.gradle/caches/transforms-2/files-2.1/e45c3bcec9556f6c305c7348090de509/jetified-play-services-base-17.1.0/AndroidManifest.xml:24:13-79
+173            android:exported="false"
+173-->[com.google.android.gms:play-services-base:17.1.0] /Users/hungcv8/.gradle/caches/transforms-2/files-2.1/e45c3bcec9556f6c305c7348090de509/jetified-play-services-base-17.1.0/AndroidManifest.xml:25:13-37
+174            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+174-->[com.google.android.gms:play-services-base:17.1.0] /Users/hungcv8/.gradle/caches/transforms-2/files-2.1/e45c3bcec9556f6c305c7348090de509/jetified-play-services-base-17.1.0/AndroidManifest.xml:26:13-72
+175
+176        <provider
+176-->[com.google.firebase:firebase-common:19.3.1] /Users/hungcv8/.gradle/caches/transforms-2/files-2.1/5388d4664efac90cc4cb775def4a245e/jetified-firebase-common-19.3.1/AndroidManifest.xml:26:9-31:39
+177            android:name="com.google.firebase.provider.FirebaseInitProvider"
+177-->[com.google.firebase:firebase-common:19.3.1] /Users/hungcv8/.gradle/caches/transforms-2/files-2.1/5388d4664efac90cc4cb775def4a245e/jetified-firebase-common-19.3.1/AndroidManifest.xml:27:13-77
+178            android:authorities="com.tro.firebaseinitprovider"
+178-->[com.google.firebase:firebase-common:19.3.1] /Users/hungcv8/.gradle/caches/transforms-2/files-2.1/5388d4664efac90cc4cb775def4a245e/jetified-firebase-common-19.3.1/AndroidManifest.xml:28:13-72
+179            android:directBootAware="true"
+179-->[com.google.firebase:firebase-common:19.3.1] /Users/hungcv8/.gradle/caches/transforms-2/files-2.1/5388d4664efac90cc4cb775def4a245e/jetified-firebase-common-19.3.1/AndroidManifest.xml:29:13-43
+180            android:exported="false"
+180-->[com.google.firebase:firebase-common:19.3.1] /Users/hungcv8/.gradle/caches/transforms-2/files-2.1/5388d4664efac90cc4cb775def4a245e/jetified-firebase-common-19.3.1/AndroidManifest.xml:30:13-37
+181            android:initOrder="100" />
+181-->[com.google.firebase:firebase-common:19.3.1] /Users/hungcv8/.gradle/caches/transforms-2/files-2.1/5388d4664efac90cc4cb775def4a245e/jetified-firebase-common-19.3.1/AndroidManifest.xml:31:13-36
+182
+183        <receiver
+183-->[com.google.android.gms:play-services-measurement:18.0.0] /Users/hungcv8/.gradle/caches/transforms-2/files-2.1/d22294b7e268c3424b3c8480b1093680/jetified-play-services-measurement-18.0.0/AndroidManifest.xml:29:9-33:20
+184            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
+184-->[com.google.android.gms:play-services-measurement:18.0.0] /Users/hungcv8/.gradle/caches/transforms-2/files-2.1/d22294b7e268c3424b3c8480b1093680/jetified-play-services-measurement-18.0.0/AndroidManifest.xml:30:13-85
+185            android:enabled="true"
+185-->[com.google.android.gms:play-services-measurement:18.0.0] /Users/hungcv8/.gradle/caches/transforms-2/files-2.1/d22294b7e268c3424b3c8480b1093680/jetified-play-services-measurement-18.0.0/AndroidManifest.xml:31:13-35
+186            android:exported="false" >
+186-->[com.google.android.gms:play-services-measurement:18.0.0] /Users/hungcv8/.gradle/caches/transforms-2/files-2.1/d22294b7e268c3424b3c8480b1093680/jetified-play-services-measurement-18.0.0/AndroidManifest.xml:32:13-37
+187        </receiver>
+188
+189        <service
+189-->[com.google.android.gms:play-services-measurement:18.0.0] /Users/hungcv8/.gradle/caches/transforms-2/files-2.1/d22294b7e268c3424b3c8480b1093680/jetified-play-services-measurement-18.0.0/AndroidManifest.xml:35:9-38:40
+190            android:name="com.google.android.gms.measurement.AppMeasurementService"
+190-->[com.google.android.gms:play-services-measurement:18.0.0] /Users/hungcv8/.gradle/caches/transforms-2/files-2.1/d22294b7e268c3424b3c8480b1093680/jetified-play-services-measurement-18.0.0/AndroidManifest.xml:36:13-84
+191            android:enabled="true"
+191-->[com.google.android.gms:play-services-measurement:18.0.0] /Users/hungcv8/.gradle/caches/transforms-2/files-2.1/d22294b7e268c3424b3c8480b1093680/jetified-play-services-measurement-18.0.0/AndroidManifest.xml:37:13-35
+192            android:exported="false" />
+192-->[com.google.android.gms:play-services-measurement:18.0.0] /Users/hungcv8/.gradle/caches/transforms-2/files-2.1/d22294b7e268c3424b3c8480b1093680/jetified-play-services-measurement-18.0.0/AndroidManifest.xml:38:13-37
+193        <service
+193-->[com.google.android.gms:play-services-measurement:18.0.0] /Users/hungcv8/.gradle/caches/transforms-2/files-2.1/d22294b7e268c3424b3c8480b1093680/jetified-play-services-measurement-18.0.0/AndroidManifest.xml:39:9-43:72
+194            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
+194-->[com.google.android.gms:play-services-measurement:18.0.0] /Users/hungcv8/.gradle/caches/transforms-2/files-2.1/d22294b7e268c3424b3c8480b1093680/jetified-play-services-measurement-18.0.0/AndroidManifest.xml:40:13-87
+195            android:enabled="true"
+195-->[com.google.android.gms:play-services-measurement:18.0.0] /Users/hungcv8/.gradle/caches/transforms-2/files-2.1/d22294b7e268c3424b3c8480b1093680/jetified-play-services-measurement-18.0.0/AndroidManifest.xml:41:13-35
+196            android:exported="false"
+196-->[com.google.android.gms:play-services-measurement:18.0.0] /Users/hungcv8/.gradle/caches/transforms-2/files-2.1/d22294b7e268c3424b3c8480b1093680/jetified-play-services-measurement-18.0.0/AndroidManifest.xml:42:13-37
+197            android:permission="android.permission.BIND_JOB_SERVICE" />
+197-->[com.google.android.gms:play-services-measurement:18.0.0] /Users/hungcv8/.gradle/caches/transforms-2/files-2.1/d22294b7e268c3424b3c8480b1093680/jetified-play-services-measurement-18.0.0/AndroidManifest.xml:43:13-69
+198
+199        <meta-data
+199-->[com.google.android.gms:play-services-basement:17.1.1] /Users/hungcv8/.gradle/caches/transforms-2/files-2.1/0994f80e577dd4de935a494dcd3f1665/jetified-play-services-basement-17.1.1/AndroidManifest.xml:23:9-25:69
+200            android:name="com.google.android.gms.version"
+200-->[com.google.android.gms:play-services-basement:17.1.1] /Users/hungcv8/.gradle/caches/transforms-2/files-2.1/0994f80e577dd4de935a494dcd3f1665/jetified-play-services-basement-17.1.1/AndroidManifest.xml:24:13-58
+201            android:value="@integer/google_play_services_version" />
+201-->[com.google.android.gms:play-services-basement:17.1.1] /Users/hungcv8/.gradle/caches/transforms-2/files-2.1/0994f80e577dd4de935a494dcd3f1665/jetified-play-services-basement-17.1.1/AndroidManifest.xml:25:13-66
+202    </application>
+203
+204</manifest>

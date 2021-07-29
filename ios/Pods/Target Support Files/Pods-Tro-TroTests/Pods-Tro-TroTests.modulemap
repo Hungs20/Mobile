@@ -1,0 +1,6 @@
+module Pods_Tro_TroTests {
+  umbrella header "Pods-Tro-TroTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
